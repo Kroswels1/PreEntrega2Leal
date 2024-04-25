@@ -180,3 +180,11 @@ h4{
 .col-6, .col-md-4 {
     background-color: aqua;
 }
+
+.formulario {
+    margin-top: 50px;
+}
+
+.espaciado {
+    margin-bottom: 50px;
+}
