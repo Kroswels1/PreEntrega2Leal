@@ -1,0 +1,18 @@
+.cajaproducto {
+    background-color: rgb(32, 1, 38);
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    width: 250px;
+    height: 210px;
+    border: 20px;
+}
+
+.cajagrande {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
