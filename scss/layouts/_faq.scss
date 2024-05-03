@@ -1,0 +1,21 @@
+.container-preguntas {
+    background: radial-gradient(circle, $primary-color, $secondary-color);
+    margin: 50px;
+    padding: 50px;
+
+    .pregunta {
+        background-color: rgb(32, 1, 38); 
+        padding: 10px;
+        border-radius: 10px;  
+    }
+    
+    .titulo-pregunta {
+        font-weight: bold;
+        text-align: center;
+        font-size: x-large;
+    }
+    
+    .espacio-arriba {
+        margin-top:20px;
+    }
+}
