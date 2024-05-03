@@ -1,18 +1,31 @@
-.cajaproducto {
-    background-color: rgb(32, 1, 38);
-    display: inline-block;
-    margin: 20px;
-    padding: 20px;
-    width: 250px;
-    height: 210px;
-    border: 20px;
+//Anidacion + Mixin con Sass
+
+@mixin estilo-texto-productos {
+    color: $secondary-color;
+    text-align: center;
 }
 
-.cajagrande {
+.container-productos {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
     row-gap: 20px;
-}
+    padding-bottom: 20px;
+    margin: 50px;
 
+    .producto {
+        background-color: $primary-color;   
+        padding: 10px;
+        border-radius: 10px;
+
+        p {
+            @include estilo-texto-productos;
+        }
+
+        .precio {
+            @include estilo-texto-productos;
+            padding-top:20px;
+        }
+    }
+}

@@ -1,3 +1,4 @@
+
  //base
  @import "base/vars";
  @import "base/reset";
@@ -8,217 +9,56 @@
  @import "components/navbar";
 
  //layouts
+ @import "layouts/index";
  @import "layouts/contacto";
  @import "layouts/galeria";
- @import "layouts/index";
+ @import "layouts/faq";
  @import "layouts/productos";
-
- 
-
- 
- 
- 
- 
+ @import "layouts/pagos";
 
 
-.imagen3 {
-    width: 200px;
-    border-radius: 15px;
+body {
+    background-color: $secondary-color;
 }
 
-.imagen4 {
-    width: 200px;
-    border-radius: 15px;
-}
-
-.imagen5{ 
-    width: 50%;
-}
-
-
-.contenedor {
-    text-align: center;
-    border-radius: 30px;
-    padding: 50px;
-}
-
-.contenedor1 {
- background-color: rgb(32, 2, 38);   
- color: aliceblue;
-}
-
-.contenedor2 {
-    margin-top: 50px;
-    background-color: rgb(32, 1, 38);   
-    
-}
-.contenedor3 {
-    margin-top: 50px;
-    background-color: rgb(32, 1, 38);   
-
-}
-
-ul {
-  list-style: none;
-  text-align: center;
-
-}
-
-li {
-  display: inline-block;
-  margin-right: 50px; /* add spacing between items */
-}
-h1{
+h1 {
     font-size: 55px;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
-    color: rgba(246, 243, 247, 0.882);
+    color: $primary-color;
     text-align: center;
+    margin-top: 20px;
 }
-h2{
+
+h2 {
     font-size: 35px;
-    color: azure;
+    color: $paleta3-color;
     font-weight: 600;
     text-align: center;
     font-family: cursive
 }
-.h3{font-size: 35px;
-    color: azure;
+
+h3 {
+    font-size: 35px;
+    color: $paleta3-color;
     font-weight: 600;
     text-align: center;
     font-family: cursive
-
 }
 
-p{
-    font-size: 20px;
-    color: azure;
-    font-family: Verdana, Geneva, Tahoma, sans-serifs;
-    text-align: justify;
-  text-justify: inter-word;
-
-}
-
-h4{
+h4 {
     text-align: center;
     font-size: 15px;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.imagen { 
-    width: 100%;
-}
- 
-.cajaproducto{
-    background-color:  rgb(32, 1, 38);   
-    display: inline-block;
-    margin: 20px;
-    padding: 20px;
-    width: 250px;
-    height: 210px;
-    border: 20px; 
-}
-
-.colecciones {
-    margin: auto;
-    width: 80%;
-}
-
-.imagen-producto {
-    width: 250px;
-}
-
-.pregunta {
-    background-color: rgb(32, 1, 38); 
-    padding: 10px;
-    border-radius: 10px;  
-}
-
-.titulo-pregunta {
-    font-weight: bold;
-    text-align: center;
-    font-size: x-large;
-}
-
-.espacio-arriba {
-    margin-top:20px;
-}
-
-.cont-principal {
-    background-color: rgb(188, 140, 200);
-    padding: 10px;
-    margin-top: 20px;
-    border-radius: 10px;
-}
-
-.navbar {
-    background-color: rgb(244, 236, 247) !important;
-    border-bottom: 1px solid black;
- }
-
- footer {
-    border-top: 2px solid black;
-    margin-top: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
- }
-
-.cajagrande {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    row-gap: 20px;
-
-}
-
-.cajagrande .producto {
-    background-color: rgb(32, 1, 38);   
-    padding: 10px;
-    border-radius: 10px;
- 
-}
-
-.producto p {
-    color: white;
-    text-align: center;
-}
-
-.producto a {
-    text-align: center;
-}
-
-@media (max-width:1023px) {
-    .cajagrande {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+p {
+    font-size: 20px;
+    color: $paleta3-color;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .col-6, .col-md-4 {
     background-color: aqua;
 }
-
-.formulario {
-    margin-top: 50px;
-}
-
-.espaciado {
-    margin-bottom: 50px;
-}
-
-.secondinicio{ 
-    width: 100%;
-    margin-top: 35px;
-}
-
-.h7{
-
-    margin-top: 15px;
-    color: rgba(237, 224, 237, 0.765);
-    text-align: center;
-    padding-bottom: 35px  
-}
-
